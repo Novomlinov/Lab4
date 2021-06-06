@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+
+if __name__ == '__main__':
+
+    line = input()
+
+    for ind in range(len(line) - 1):
+        if line[ind] == line[ind + 1]:
+            print(ind + 1, ind + 2)
+            break
+    else:
+       print('Таких символов нет')
